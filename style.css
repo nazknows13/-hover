@@ -8,9 +8,23 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-
 }
+
+#bgvid {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  object-fit: cover; /* cover works perfectly on Safari */
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 100%;
+  height: 445px;
+  max-height: 445px;
+  overflow: hidden;
+}
+
 h1{
 	font-size:4rem;
 	color: black;
